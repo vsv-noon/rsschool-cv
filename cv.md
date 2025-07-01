@@ -27,7 +27,7 @@ I'm currently studying at RS School on JS/FE Stage-0. Upon completion of the cou
 
 ## Projects
 
-- [rsschool-cv](https://vsv-noon.github.io/rsschool-cv)
+- [rsschool-cv](https://vsv-noon.github.io/rsschool-cv/cv)
 - [Robo School](https://vsv-noon.github.io/robo-school/)
 
 ## Education
@@ -47,4 +47,4 @@ function greet() {
 }
 ```
 
-© 2025 by Anisimov Viacheslav
+© 2025 by Viacheslav Anisimov
