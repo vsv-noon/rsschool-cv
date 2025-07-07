@@ -2,4 +2,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserat", sans-serif;
+  text-decoration: none;
+  color: #555;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #585c68;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  background: rgb(250, 250, 246);
+}
+
+.header {
+  background-color: #c9c6c6;
+}
+
+.nav {
+  padding: 30px;
+}
+
+h1 {
+  padding-top: 15px;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+a {
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  color: #000;
+  transition: all 0.5s ease;
+}
+
+.ul {
+  padding-left: 35px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
