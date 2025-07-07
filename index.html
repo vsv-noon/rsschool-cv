@@ -147,6 +147,34 @@
           </div>
         </div>
       </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <div>
+            <a href="https://github.com/vsv-noon" target="blank">
+              <img
+                class="github-logo"
+                src="./github-mark.svg"
+                alt="github-logo"
+              >
+            </a>
+          </div>
+          <p>&copy; <span id="year"></span> by Viacheslav Anisimov</p>
+          <div>
+            <a href="https://rs.school/courses/javascript-ru" target="blank">
+              <img
+                class="rss-logo"
+                src="./rs_school_js.svg"
+                alt="rs_school_js_logo"
+              >
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
+    <script>
+      document
+        .getElementById("year")
+        .appendChild(document.createTextNode(new Date().getFullYear()));
+    </script>
   </body>
 </html>

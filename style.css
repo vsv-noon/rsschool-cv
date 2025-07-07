@@ -110,3 +110,21 @@ code {
   font-size: 14px;
 }
 
+.footer {
+  background-color: #c9c6c6;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.github-logo {
+  width: 40px;
+}
+
+.rss-logo {
+  width: 110px;
+}
