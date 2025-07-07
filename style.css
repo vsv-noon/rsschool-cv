@@ -15,6 +15,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 800px;
+  height: 1080px;
   background: rgb(250, 250, 246);
 }
 
@@ -54,3 +55,58 @@ a:hover {
   justify-content: space-between;
   list-style: none;
 }
+
+.main {
+  display: flex;
+  height: 90%;
+}
+
+.left-column {
+  width: 330px;
+}
+
+.avatar {
+  width: 95%;
+  padding: 15px 15px;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.contacts {
+  padding-left: 15px;
+  margin-bottom: 30px;
+
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+.skills {
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+.languages {
+  padding-left: 15px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 500px;
+}
+
+pre {
+  background: rgb(247, 244, 244);
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+code {
+  font-size: 14px;
+}
+
