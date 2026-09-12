@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" >
+    <link rel="stylesheet" href="./style.css" >
+    <title>Curriculum Vitae</title>
   </head>
   <body>
     <div class="container">
@@ -25,7 +26,7 @@
       <main class="main">
         <div class="left-column">
           <div class="avatar-box">
-            <img class="avatar" src="./avatar.jpg" alt="avatar">
+            <img class="avatar" src="./assets/avatar.jpg" alt="avatar" >
           </div>
           <div class="contacts">
             <h2 id="contacts">Contacts</h2>
@@ -64,7 +65,7 @@
         <div class="right-column">
           <div>
             <h1>Viacheslav Anisimov</h1>
-            <h3>Junior Front-End Developer</h3>
+            <p class="occupation">Junior Front-End Developer</p>
           </div>
 
           <div class="summary">
@@ -150,21 +151,40 @@
       <footer class="footer">
         <div class="footer-container">
           <div>
-            <a href="https://github.com/vsv-noon" target="blank">
+            <a
+              href="https://github.com/vsv-noon"
+              target="blank"
+              title="vsv-noon"
+            >
               <img
                 class="github-logo"
-                src="./github-mark.svg"
+                src="./assets/github-mark.svg"
                 alt="github-logo"
               >
             </a>
           </div>
-          <p>&copy; <span id="year"></span> by Viacheslav Anisimov</p>
-          <div>
-            <a href="https://rs.school/courses/javascript-ru" target="blank">
+          <p>&copy; <span id="year"></span></p>
+          <div class="rss-logo-container">
+            <a
+              href="https://rs.school/courses/javascript"
+              target="blank"
+              title="JS / Front-end Course"
+            >
               <img
                 class="rss-logo"
-                src="./rs_school_js.svg"
+                src="./assets/rs_school_js.svg"
                 alt="rs_school_js_logo"
+              >
+            </a>
+            <a
+              href="https://rs.school/courses/short-track"
+              target="blank"
+              title="JS / Front-end Short Track Course"
+            >
+              <img
+                class="rss-logo-black"
+                src="./assets/rs_school_logo_black.svg"
+                alt="rs_school_logo_black"
               >
             </a>
           </div>
